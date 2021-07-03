@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lienol竞斗云自用
+name: Lienol竞斗云
 
 on:
   repository_dispatch:
