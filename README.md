@@ -1,7 +1,7 @@
 ## 在线编译自用路由器固件，请勿操作，后果自负
 
 ## 联动仓库
-- [OpenWRT-Packages](https://github.com/Aibx/OpenWRT-Packages)：国内常用OpenWRT软件包集合
+- [OpenWRT-Packages](https://github.com/kiddin9/openwrt-packages)：常用OpenWRT软件包集合
 - [Aibx's OpenWrt-Packages](https://github.com/Aibx/OpenWRT-Packages)：Aibx的OpenWRT软件包集合
 - [kenzok8's OpenWrt-Packages](https://github.com/kenzok8/openwrt-packages)：kenzok8的OpenWRT软件包集合
 
