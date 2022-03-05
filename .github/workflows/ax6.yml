@@ -24,8 +24,9 @@ on:
 #     types: started
     
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: main
+  # REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Boos4721/openwrt
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ax6.config
   DIY_P1_SH: diy-part1.sh
@@ -39,7 +40,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 #     if: github.event.repository.owner.id == github.event.sender.id
     
     steps:
@@ -63,7 +64,6 @@ jobs:
       run: |
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
-        git checkout  e8cb010
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
     - name: Load custom feeds
       run: |
