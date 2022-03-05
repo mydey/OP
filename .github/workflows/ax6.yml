@@ -24,8 +24,7 @@ on:
 #     types: started
     
 env:
-  # REPO_URL: https://github.com/mydey/lede
-  REPO_URL: https://github.com/Boos4721/OpenWrt
+  REPO_URL: https://github.com/mydey/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ax6.config
